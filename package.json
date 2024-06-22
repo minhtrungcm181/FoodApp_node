@@ -1,0 +1,19 @@
+{
+  "name": "foodapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhtrungcm181/FoodApp_node.git"
+  },
+  "author": "minhtrungcm181",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhtrungcm181/FoodApp_node/issues"
+  },
+  "homepage": "https://github.com/minhtrungcm181/FoodApp_node#readme",
+  "description": ""
+}
