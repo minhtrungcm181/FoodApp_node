@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch src/index.js"
+    "start": "node --watch src/index.js",
+    "sequelize-auto": "sequelize-auto -h localhost -d food_sql -u root -x admin -p 3306 --dialect mysql -o ./src/models -l esm"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,7 +13,8 @@
     "mysql2": "^3.9.7",
     "sequelize": "^6.37.3",
     "sequelize-auto": "^0.8.8",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.2",
+    "winston": "^3.13.0"
   },
   "repository": {
     "type": "git",
